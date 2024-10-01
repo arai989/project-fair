@@ -1,0 +1,120 @@
+
+.contact-container h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff8f8;
+    font-size: 70px;
+    margin-left: 29px;
+}
+.contact-container .contact-form{
+    font-size: 30px;
+    box-shadow: 3px 3px 20px -10px black;
+    display: flex;
+    text-align: center;
+    /* font-size: 40px; */
+    justify-content: center;
+    width: 40%;
+    margin-left: 900px;
+    padding: 20px;
+    margin-top: 70px;
+   font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid green;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button :-moz-submit-invalid{
+    padding: 10px;
+    background-color: #28a745;
+    color:#28a745;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#28a745;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+.content{
+    margin-top: -600px;
+}
+body {
+    background-color:#f7c6c2;
+    
+}
+.nex a{
+    display: flex;
+   text-align: center;
+   font-size: 30px;
+   width: 90px;
+   justify-content: center;
+   height: 40px;
+   background-color:#83A3BE;
+   border-radius:2px  white;
+   color: aliceblue;
+ }
+ .nex{
+    display: flex;
+    justify-content: start;
+    margin: 90px;
+ }
+ /* .contactinfo{
+color:#fff8f8;
+ }
+ .contactinfo.icon{
+color: #b6c0cc;
+  */
+a{
+    text-decoration: none;
+}
+.content{
+display: flex;
+justify-content: space-around;
+margin-right: 1000px;
+padding: 10px;
+   
+    
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        font-size: 14px;
+        justify-content: start;
+    }
+
+    .contactinfo {
+        flex-direction: column;
+    }
+}
